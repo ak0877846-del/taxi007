@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "UK Taxi — Customer",
+    "slug": "uk-taxi-customer",
+    "scheme": "uktaxicustomer",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0a0f1c",
+    "ios": { "supportsTablet": false, "bundleIdentifier": "com.uktaxiapp.customer" },
+    "android": { "package": "com.uktaxiapp.customer" }
+  }
+}

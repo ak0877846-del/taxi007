@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "UK Taxi — Driver",
+    "slug": "uk-taxi-driver",
+    "scheme": "uktaxidriver",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0a0f1c",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.uktaxiapp.driver",
+      "infoPlist": { "NSLocationWhenInUseUsageDescription": "Your location is shared while online so nearby trip requests can reach you." }
+    },
+    "android": {
+      "package": "com.uktaxiapp.driver",
+      "permissions": ["ACCESS_FINE_LOCATION", "ACCESS_COARSE_LOCATION"]
+    }
+  }
+}
